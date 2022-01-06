@@ -21,7 +21,7 @@ provider "aws" {
 
 # Build the VPC
 resource "aws_vpc" "vpc" {
-  cidr_block           = "10.1.0.1/16"
+  cidr_block           = "10.3.0.0/16"
   instance_tenancy     = "default"
 
   tags = {
